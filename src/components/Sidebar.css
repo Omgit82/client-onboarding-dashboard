@@ -1,0 +1,47 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2E294E;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .sidebar h2 {
+    font-size: 2rem;
+    color: #FFD166;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #FFD166;
+    background-color: #2E294E;
+    padding-left: 10px;  /* Optional: Adding padding to make it feel interactive */
+    transition: padding-left 0.3s ease;  /* Smooth transition */
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 200px;  /* Shrink the sidebar width on small screens */
+    }
+  }
+  

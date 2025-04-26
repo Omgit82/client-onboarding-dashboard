@@ -110,10 +110,7 @@ const Dashboard = () => {
       </div>
       <div>
         <h2>Client Onboarding Status</h2>
-        <div style={{ width: '300px', height: '300px' }}>
-          {/* Limit the size of the Pie chart */}
-          <Pie data={onboardingData} />
-        </div>
+        <Pie data={onboardingData} />
       </div>
     </div>
   );
